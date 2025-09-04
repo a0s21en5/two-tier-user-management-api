@@ -1,0 +1,44 @@
+@two-tier-web-app_HostAddress = http://localhost:5247
+
+### Get all users
+GET {{two-tier-web-app_HostAddress}}/api/users
+Accept: application/json
+
+### Get user by ID
+GET {{two-tier-web-app_HostAddress}}/api/users/1
+Accept: application/json
+
+### Search users by email
+GET {{two-tier-web-app_HostAddress}}/api/users/search?email=john
+Accept: application/json
+
+### Create new user
+POST {{two-tier-web-app_HostAddress}}/api/users
+Content-Type: application/json
+
+{
+  "firstName": "Test",
+  "lastName": "User",
+  "email": "test.user@example.com",
+  "phone": "+1234567890"
+}
+
+### Update user
+PUT {{two-tier-web-app_HostAddress}}/api/users/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "firstName": "John Updated",
+  "lastName": "Doe Updated",
+  "email": "john.updated@example.com",
+  "phone": "+1234567899"
+}
+
+### Delete user (soft delete)
+DELETE {{two-tier-web-app_HostAddress}}/api/users/1ier_web_app_HostAddress = http://localhost:5247
+
+GET {{two_tier_web_app_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
