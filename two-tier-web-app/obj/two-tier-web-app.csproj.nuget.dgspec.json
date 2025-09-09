@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Practice Lab Code\\two-tier-web-app\\two-tier-web-app.csproj": {}
+    "F:\\Practice Lab Code\\two-tier-user-management-api\\two-tier-web-app\\two-tier-web-app.csproj": {}
   },
   "projects": {
-    "F:\\Practice Lab Code\\two-tier-web-app\\two-tier-web-app.csproj": {
+    "F:\\Practice Lab Code\\two-tier-user-management-api\\two-tier-web-app\\two-tier-web-app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Practice Lab Code\\two-tier-web-app\\two-tier-web-app.csproj",
+        "projectUniqueName": "F:\\Practice Lab Code\\two-tier-user-management-api\\two-tier-web-app\\two-tier-web-app.csproj",
         "projectName": "two-tier-web-app",
-        "projectPath": "F:\\Practice Lab Code\\two-tier-web-app\\two-tier-web-app.csproj",
+        "projectPath": "F:\\Practice Lab Code\\two-tier-user-management-api\\two-tier-web-app\\two-tier-web-app.csproj",
         "packagesPath": "C:\\Users\\Ash\\.nuget\\packages\\",
-        "outputPath": "F:\\Practice Lab Code\\two-tier-web-app\\obj\\",
+        "outputPath": "F:\\Practice Lab Code\\two-tier-user-management-api\\two-tier-web-app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ash\\AppData\\Roaming\\NuGet\\NuGet.Config"

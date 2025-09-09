@@ -32,6 +32,9 @@ builder.Services.AddSwaggerGen(c =>
 // Add Controllers
 builder.Services.AddControllers();
 
+// Add CORS
+builder.Services.AddCors();
+
 // Add MediatR for CQRS
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));
 
@@ -71,6 +74,15 @@ if (app.Environment.IsDevelopment() || app.Environment.IsStaging() || app.Enviro
 }
 
 app.UseHttpsRedirection();
+
+// Add CORS for development (optional)
+if (app.Environment.IsDevelopment())
+{
+    app.UseCors(builder => builder
+        .AllowAnyOrigin()
+        .AllowAnyMethod()
+        .AllowAnyHeader());
+}
 
 // Map Controllers
 app.MapControllers();
